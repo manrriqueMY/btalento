@@ -37,3 +37,5 @@ Route::get('/company/job/closed', function () { return view('company/job/closed'
 Route::get('/company/job/waiting', function () { return view('company/job/waiting');});
 Route::get('/company/job/pending', function () { return view('company/job/pending');});
 Route::get('/company/job/nuevo', function () { return view('company/job/nuevo');});
+
+Route::get('/admin/cargo', function () { return view('admin/cargo');});

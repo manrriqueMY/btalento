@@ -64,3 +64,8 @@
 #content-wrapper{
 	background-color: #efefef;
 }
+@media(max-width: 767px){
+    .img_wrapper{
+        display: none;
+    }
+}
