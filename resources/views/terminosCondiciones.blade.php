@@ -4,12 +4,12 @@
 <div class="container-fluid">
     <div class="container">
         <div class="title">
-            <h3 class="title">Términos y Condiciones</h3>
+            <h4 class="title">Términos y Condiciones</h4>
         </div>
 
         <div class="row">
             <div class="col-xs-12">
-                <h3 class="main left">AVISO LEGAL</h3>
+                <h4 class="main left">AVISO LEGAL</h4>
                 
                 <p>
                     El presente aviso legal recoge las condiciones generales que rigen el acceso y el uso del sitio
@@ -45,7 +45,7 @@
                 </p>
                 <br>
 
-                <h3 class="main left">AVISO DE COPYRIGHT</h3>
+                <h4 class="main left">AVISO DE COPYRIGHT</h4>
                 
                 <p>
                     Reqlut S.A ostenta la titularidad del presente sitio web. Todos los derechos de propiedad
@@ -72,7 +72,7 @@
                 </p>
 
                 <br>
-                <h3 class="main left">RESPONSABILIDAD POR EL FUNCIONAMIENTO DEL SITIO WEB.</h3>
+                <h4 class="main left">RESPONSABILIDAD POR EL FUNCIONAMIENTO DEL SITIO WEB.</h4>
                 
                 <p>
                     Reqlut S.A. intentará reducir al mínimo los problemas ocasionados por errores de carácter
@@ -118,7 +118,7 @@
                 </p>
 
                 <br>
-                <h3 id="privacy" class="main left">POLITICA DE PRIVACIDAD.</h3>
+                <h4 id="privacy" class="main left">POLITICA DE PRIVACIDAD.</h4>
                 
                 <p>
                     Reqlut S.A. informa seguidamente de su política de privacidad aplicada a los datos personales.
@@ -195,7 +195,7 @@
 
 
                 <br>
-                <h3 id="restricted" class="main left">ACTIVIDADES PROHIBIDAS.</h3>
+                <h4 id="restricted" class="main left">ACTIVIDADES PROHIBIDAS.</h4>
                 
                 <p>
                     Están expresamente prohibidas las siguientes actividades

@@ -7,7 +7,7 @@
                 <div class="card">
                     <div class="card-title">
                         <div class="heading-title text-center">
-                            <h3>Recuperar contraseña</h3>
+                            <h4>Recuperar contraseña</h4>
                         </div>
                     </div>
                     <div class="card-body">

@@ -5,8 +5,8 @@
 .heading-title::before {
     content: "";
     display: block;
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: -51px;
     height: 1px;
     z-index: 9;
     background: #e6e6e6;

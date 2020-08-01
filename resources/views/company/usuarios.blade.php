@@ -4,7 +4,7 @@
 <div id="content-wrapper" class ="content-wrapper">
 	<div class="container white_content">
 	    <div class="row">
-	        <div class="col-xs-12">
+	        <div class="col-md-12">
 	            <div class="heading-title">
 	                <h4>Usuarios con acceso a la empresa</h4>
 	            </div>
@@ -12,39 +12,35 @@
 	        
 	        <div class="col-sm-9">
 	            <div class="my_company">
-	                <table class="table table-striped salary tb10-xs">
-	                    <tbody>
-	                        <tr>
-	                            <th>Admin</th>
-	                            <th class="hidden-xs">Nombre</th>
-	                            <th class="hidden-xs">Rol</th>
-	                            <th>Usuario</th>
-	                        </tr>
-	                        <tr>
-	                            <td style="font-size: 16px; text-align: center; color: #99b83f;">
-	                                <i class="fa fa-check-circle"></i>
-	                            </td>
-	                            <td class="hidden-xs">WERNER ATENCIO</td>
-	                            <td class="hidden-xs">Administrador</td>
-	                            <td>pascalwerner@hotmail.com</td>
-	                        </tr>
-	                        <tr>
-	                            <td style="font-size: 16px; text-align: center; color: #99b83f;">
-
-	                            </td>
-	                            <td class="hidden-xs">Jhon Gomez</td>
-	                            <td class="hidden-xs"></td>
-	                            <td>freedemou@gmail.com</td>
-	                        </tr>
-	                        <tr>
-	                            <td style="font-size: 16px; text-align: center; color: #99b83f;">
-
-	                            </td>
-	                            <td class="hidden-xs">manrrique meneses</td>
-	                            <td class="hidden-xs"></td>
-	                            <td>manrrique.my@gmail.com</td>
-	                        </tr>
-	                    </tbody>
+	                <table class="table table-striped">	                    
+                        <tr>
+                            <th>Admin</th>
+                            <th class="hidden-xs">Nombre</th>
+                            <th class="hidden-xs">Rol</th>
+                            <th>Usuario</th>
+                            <th>Acciones</th>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 16px; text-align: center; color: #99b83f;"><i class="fa fa-check-circle"></i></td>
+                            <td class="hidden-xs">WERNER ATENCIO</td>
+                            <td class="hidden-xs">Administrador</td>
+                            <td>pascalwerner@hotmail.com</td>
+                            <td><a href="#" class="rol">Quitar Admin</a></td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 16px; text-align: center; color: #99b83f;"></td>
+                            <td class="hidden-xs">Jhon Gomez</td>
+                            <td class="hidden-xs"></td>
+                            <td>freedemou@gmail.com</td>
+                            <td><a href="#" class="rol">Quitar Admin</a></td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 16px; text-align: center; color: #99b83f;"></td>
+                            <td class="hidden-xs">manrrique meneses</td>
+                            <td class="hidden-xs"></td>
+                            <td>manrrique.my@gmail.com</td>
+                            <td><a href="#" class="rol">Quitar Admin</a><br><a href="#" class="rol">Setear Admin</a></td>
+                        </tr>
 	                </table>
 	            </div>
 	        </div>

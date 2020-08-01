@@ -7,7 +7,7 @@
 .modal-content {  border: 5px solid #FF9999;  }
 .modal-content .btn-info{color: #fff; background-color: #FF9999; border-color: #FF9999; border-width: 2px; padding: 5px 12px;}
 .modal-content .btn-info:hover, .modal-content .btn-info:active{color: #fff; background-color: #104ECA; border-color: #104ECA; border-width: 2px;}
-.home_register .or{color: #FF9999;}
+#modal-inner-register .or{color: #FF9999;}
 
 .visible-xs-block{
     visibility: hidden;

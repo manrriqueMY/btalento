@@ -9,12 +9,12 @@
                 </div>
                 <form name="Company" method="post" action="#" class="needs-validation" enctype="multipart/form-data" novalidate="true">
                 	<br>
-                    <div class="form-group has-feedback d-flex justify-content-center">
-                        <div class="fileinput fileinput-new" data-provides="fileinput">
-                            <div class="fileinput-new thumbnail" style="width: 320px;">
+                    <div class="form-group has-feedback ">
+                        <div class="fileinput">
+                            <div class="d-flex justify-content-center" style="width: 320px;">
                                 <img src="//reqlut2.s3.amazonaws.com/uploads/logos/default.jpg">
                             </div>
-                            <div class="fileinput-preview fileinput-exists thumbnail" id="preview" style="max-width: 320px;"></div>
+                            <div class="fileinput-preview fileinput-exists" id="preview" style="max-width: 320px;"></div>
                             <div class="custom-file">
 							    <input type="file" class="custom-file-input" id="Company_photo" name="photo" required="">
 							    <label class="custom-file-label" for="Company_photo">Seleccione una imagen</label>

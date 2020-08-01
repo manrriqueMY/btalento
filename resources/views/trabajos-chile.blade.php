@@ -3,7 +3,7 @@
 <div class="content-wrapper">
     <div class="container">
         <div class="heading-title">        
-            <h3>Trabajos exclusivos <small class="float-right"><strong>11 trabajos encontrados</strong></small></h3>
+            <h4>Trabajos exclusivos <small class="float-right"><strong>11 trabajos encontrados</strong></small></h4>
             
         </div>
 

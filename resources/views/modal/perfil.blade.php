@@ -13,8 +13,8 @@
         <div class="section">                        
             <div class="completeness_number"> 0 % </div>
 
-            <div style="min-height:7px; background-color: #f1f1f1; border-radius:3px; margin:5px 0px;">
-                <div style="min-height:7px; width:0%; background-color: #FF9999; border-radius:3px;"></div>
+            <div class="progressbar">
+                <div class="progressa" style="width:20%;"></div>
             </div>
 
             <a class="btn btn-block btn-primary" href="/account/profile/download">Descargar curriculum</a>
@@ -53,55 +53,56 @@
                         </a>
                     </div>
                     
-                                        <div class="item not_done">
-                            <a href="/account/perfil#careers">
-                                Educación superior                             <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
-                                        <div class="item not_done">
-                            <a href="/account/perfil#schools">
-                                Educación básica y media
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
-                                        <div class="item not_done">
-                            <a href="/account/perfil#postgraduates">
-                                Postgrados
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
+                    <div class="item not_done">
+                        <a href="/account/perfil#careers">
+                            Educación superior
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
+                    <div class="item not_done">
+                        <a href="/account/perfil#schools">
+                            Educación básica y media
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
+                    <div class="item not_done">
+                        <a href="/account/perfil#postgraduates">
+                            Postgrados
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
 
-                                        <div class="item not_done">
-                            <a href="/account/perfil#additional">
-                                Información adicional
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
-                                        <div class="item not_done">
-                            <a href="/account/perfil#langs">
-                                Idiomas
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
-                                        <div class="item not_done">
-                            <a href="/account/perfil#habilities">
-                                Habilidades
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                    
-                                        <div class="item not_done">
-                            <a href="/account/tests">
-                                Evaluaciones laborales
-                                <span class="symbol"><i class="fa fa-plus-circle"></i></span>
-                            </a>
-                        </div>
-                                </div>
+                    <div class="item not_done">
+                        <a href="/account/perfil#additional">
+                            Información adicional
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
+                    <div class="item not_done">
+                        <a href="/account/perfil#langs">
+                            Idiomas
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
+                    <div class="item not_done">
+                        <a href="/account/perfil#habilities">
+                            Habilidades
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                
+                    <div class="item not_done">
+                        <a href="/account/tests">
+                            Evaluaciones laborales
+                            <span class="symbol"><i class="fa fa-plus-circle"></i></span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         <br>

@@ -7,7 +7,7 @@
                 <div class="card">
                     <div class="card-title">
                         <div class="heading-title text-center">
-                            <h3>Registrate y encuentra los mejores talentos</h3>
+                            <h4>Registrate y encuentra los mejores talentos</h4>
                         </div>
                     </div>
                     <div class="card-body">
