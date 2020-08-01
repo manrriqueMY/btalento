@@ -55,7 +55,7 @@
 	margin: 10px;
 	background-color: #fff;
 	padding: 20px;
-	border: 2px solid #ccc;
+	border-bottom: 1px solid #ccc;
 }
 .col-xs-12 {
 	padding-left: 0px;
@@ -67,4 +67,16 @@
 #filtro label {
     font-weight: bold;
     color: #FF9999;
+}
+#busca{
+	margin-top: 20px;
+}
+#busca > .form-control{
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+#searchSubmit {
+	cursor: pointer; 
+	border-top-right-radius : 50px; 
+	border-bottom-right-radius: 50px;
 }

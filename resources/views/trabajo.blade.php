@@ -117,11 +117,11 @@
                 </div>
             </div>
             <div class="job_section">
-                <div class="heading-block heading-minimal">
-                    <h2>
+                <div class="heading-title">
+                    <h4>
                         Detalles
 
-                    </h2>
+                    </h4>
                 </div>
                 <div class="row">
                     <div class="col-sm-4"><b>Tipo de oferta</b></div>
@@ -166,7 +166,9 @@
                 </div>
             </div>
             <div class="job_section">
-                <h2>Inclusión laboral</h2>
+                <div class="heading-title">
+                    <h4>Inclusión laboral</h4>
+                </div>
                 <div class="row">
                     <div class="col-sm-4">
                         <img src="/assets/images/reqlut/logo-inclusion.png" style="max-width: 150px;"
@@ -186,8 +188,8 @@
                 </div>
             </div>
             <div class="job_section">
-                <div class="heading-block heading-minimal">
-                    <h2>Requisitos</h2>
+                <div class="heading-title">
+                    <h4>Requisitos</h4>
                 </div>
                 <div class="row">
                     <div class="col-sm-4"><b>Carrera(s)</b></div>
@@ -208,7 +210,9 @@
             </div>
 
             <div class="job_section" id="apply">
-                <h2>Postular</h2>
+                <div class="heading-title">
+                    <h4>Postular</h4>
+                </div>
                 <div class="msg_bg">
                     <p>
                         Ingresa o crea tu cuenta en Talento Inclusivo para postular
