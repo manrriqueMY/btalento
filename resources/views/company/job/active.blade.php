@@ -35,26 +35,31 @@
 				    </div>
 
 				    <div class="visible-xs-block">
-				        <div class="col-xs-12">
-				            <a class="link selected" onclick="$('#account_mobile_menu').slideToggle();">
-				                <span class="caret pull-right" id="account_mobile_caret"></span>
-				                Activos
-				            </a>
-				            <div id="account_mobile_menu" style="display: none;">
-				                <a class="link hidden-xs" href="/company/job/active">
-				                    Activos
-				                </a>
-				                <a class="link" href="/company/job/closed">
-				                    Cerrados
-				                </a>
-				                <a class="link" href="/company/job/waiting">
-				                    En espera
-				                </a>
-				                <a class="link" href="/company/job/pending">
-				                    Rechazados </a>
-				            </div>
-				        </div>
-				        <div class="clearfix"></div>
+						
+							
+								<div class="col-xs-12">
+									<a class="link selected" onclick="$('#account_mobile_menu').slideToggle();">
+										<span class="caret pull-right" id="account_mobile_caret"></span>
+										Activos
+									</a>
+									<div id="account_mobile_menu" style="display: none;">
+										<a class="link hidden-xs" href="/company/job/active">
+											Activos
+										</a>
+										<a class="link" href="/company/job/closed">
+											Cerrados
+										</a>
+										<a class="link" href="/company/job/waiting">
+											En espera
+										</a>
+										<a class="link" href="/company/job/pending">
+											Rechazados </a>
+									</div>
+								</div>
+							
+								<div class="clearfix"></div>
+							
+						
 				    </div>
 				</div>
                 <br>

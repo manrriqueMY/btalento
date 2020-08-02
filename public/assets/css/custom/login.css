@@ -10,7 +10,7 @@
 #modal-inner-register .or{color: #FF9999;}
 
 .visible-xs-block{
-    visibility: hidden;
+    visibility: visible;
 }
 .form-group label{font-weight: bold;}
 .btn-primary, .btn-primary:focus {

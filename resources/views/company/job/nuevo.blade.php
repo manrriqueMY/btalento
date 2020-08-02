@@ -2,7 +2,7 @@
 @section('content')
 <div id="content-wrapper">
 	<div class="container">
-		<div class="heading-title"><h4>Que Tipo de oferta desea Publicar</h4></div>
+		<div class="heading-title text-center"><h4>Que Tipo de oferta desea Publicar</h4></div>
 		<section class="container informacion">			
 		    <div class="row mx-0">
 		        <div class="col-md-4 col-xs-12 text-center">
@@ -29,9 +29,7 @@
 		                Trabajo para estudiante
 		            </h2>
 		        </div>
-		        <div class="col-12 text-center mt-5">
-		            <div class="btn btn-primary">Ver Ofertas</div>
-		        </div>
+		        
 		    </div>
 		</section>
 	</div>
