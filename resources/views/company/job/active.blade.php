@@ -31,7 +31,7 @@
 				                Rechazados &nbsp;<span class="alert_icon">0</span>
 				            </a>
 				        </div>
-				        <div class="clearfix"></div>
+				        
 				    </div>
 
 				    <div class="visible-xs-block">
@@ -54,10 +54,32 @@
 				                    Rechazados </a>
 				            </div>
 				        </div>
-				        <div class="clearfix"></div>
+				        
 				    </div>
 				</div>
-                <br>
+                <div class="heading-title"><h4>Procesos Activos</h4></div>
+                <table class="table table-striped">
+                	<tr>
+                		<th>Inicio</th>
+                		<th>Fin</th>
+                		<th>Cargo</th>
+                		<th>Empresa</th>
+                		<th>Region</th>
+                		<th>Comuna</th>
+                		<th>Origen</th>
+                		<th>Selección</th>
+                	</tr>
+                	<tr>
+                		<td>17 marzo 2020</td>
+                		<td>25 marzo 2020</td>
+                		<td>Analista Cuentas por Pagar</td>
+                		<td>Antofagasta Mineral</td>
+                		<td>Región Metropolitana</td>
+                		<td>Los Condes</td>
+                		<td>TInclusivo</td>
+                		<td>Sin Respuesta</td>
+                	</tr>
+                </table>
             </div>
             @include('modal.publica')
         </div>

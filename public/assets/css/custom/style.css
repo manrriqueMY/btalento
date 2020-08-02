@@ -457,7 +457,7 @@ footer a:hover{
     align-content: center;
     align-items: center;
     height: 37px;
-    width: 37px;
+    min-width: 37px;
     border: 1px solid #ccc;
 }
 .radio:checked ~ label{

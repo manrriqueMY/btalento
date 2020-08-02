@@ -27,7 +27,7 @@
         
         <script src="/assets/js/app.js"></script>
         <script src="/assets/plugins/slick/slick.js"></script>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js"></script>
         <script src="/assets/js/custom/login.js"></script>
         @stack('js')
     </body>

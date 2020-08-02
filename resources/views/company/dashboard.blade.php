@@ -2,17 +2,17 @@
 @section('content')
 <div id="content-wrapper">
     <div class="container white_content">
-    	<br>
         <div class="row">
             <div class="col-md-9">
+                <br>
                 <div class="">
                     <h1 class="black left">                        
                         Estadísticas de Spyrohost
 
                         <div class="pull-right message-filter">
-                            <a href="/myCompany/dashboard" class="active">Mes</a> |
-                            <a href="/myCompany/dashboard">Año</a> |
-                            <a href="/myCompany/dashboard">Todos</a>
+                            <a href="/company/dashboard" class="active">Mes</a> |
+                            <a href="/company/dashboard">Año</a> |
+                            <a href="/company/dashboard">Todos</a>
                         </div>
                     </h1>
                     <div class="row">
@@ -57,7 +57,7 @@
                     </div>
                     
 					<br>
-                    <div class="col-sm-8">
+                    <div>
                         <span class="hint">Contando las publicaciones de todos los <a href="/company/usuarios">usuarios</a> de la empresa</span>
                     </div>
 					<br>

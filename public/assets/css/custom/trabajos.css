@@ -38,6 +38,10 @@
 	font-weight: bold;
 	color: #FF9999;
 }
+#filtros a{
+	color: #FF9999 !important;
+	padding-right: 15px;
+}
 #descripcion .summary>a{
 	color: #FF9999;	
 }
@@ -79,4 +83,7 @@
 	cursor: pointer; 
 	border-top-right-radius : 50px; 
 	border-bottom-right-radius: 50px;
+}
+.ui-widget-header{
+	background-color: #FF9999 !important;
 }

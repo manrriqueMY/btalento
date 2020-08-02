@@ -11,6 +11,7 @@
 
 .visible-xs-block{
     visibility: hidden;
+    display: none;
 }
 .form-group label{font-weight: bold;}
 .btn-primary, .btn-primary:focus {
@@ -36,6 +37,7 @@
 @media (max-width: 768px){
     .visible-xs-block{
         visibility: visible;
+        display: block;
     }
     #modal-inner-register{
         display: none;
@@ -50,4 +52,8 @@
 }
 #login_modal a{
     color: #FF9999;
+}
+.titulo{
+    background-color: #ffffff;
+    padding: 20px;
 }

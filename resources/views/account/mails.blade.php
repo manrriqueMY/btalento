@@ -31,8 +31,8 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="custom-control custom-switch">
-                                  <input type="checkbox" class="custom-control-input" id="mail" name="example">
-                                  <label class="custom-control-label" for="mail">Si</label>
+                                  <input type="checkbox" class="custom-control-input" data-onstyle="success" data-on="SI" data-off="NO" data-toggle="toggle" id="mail" name="example">
+                                  <!--<label class="custom-control-label" for="mail">Si</label>-->
                                 </div>
                             </div>
                         </div>
@@ -43,8 +43,8 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="custom-control custom-switch">
-                                  <input type="checkbox" class="custom-control-input" id="mailRecommend" name="example">
-                                  <label class="custom-control-label" for="mailRecommend">Si</label>
+                                  <input type="checkbox" class="custom-control-input" data-onstyle="success" data-on="SI" data-off="NO" data-toggle="toggle" id="mailRecommend" name="example">
+                                  <!--<label class="custom-control-label" for="mailRecommend">Si</label>-->
                                 </div>
                             </div>
                         </div>
@@ -55,8 +55,8 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="custom-control custom-switch">
-                                  <input type="checkbox" class="custom-control-input" id="mailInvitation" name="example">
-                                  <label class="custom-control-label" for="mailInvitation">Si</label>
+                                  <input type="checkbox" class="custom-control-input" data-onstyle="success" data-on="SI" data-off="NO" data-toggle="toggle" id="mailInvitation" name="example">
+                                  <!--<label class="custom-control-label" for="mailInvitation">Si</label>-->
                                 </div>
                             </div>
                         </div>
@@ -67,8 +67,8 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="custom-control custom-switch">
-                                  <input type="checkbox" class="custom-control-input" id="mailOffer" name="example">
-                                  <label class="custom-control-label" for="mailOffer">Si</label>
+                                  <input type="checkbox" class="custom-control-input" data-onstyle="success" data-on="SI" data-off="NO" data-toggle="toggle" id="mailOffer" name="example">
+                                  <!--<label class="custom-control-label" for="mailOffer">Si</label>-->
                                 </div>
                             </div>
                         </div>
@@ -79,8 +79,8 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="custom-control custom-switch">
-                                  <input type="checkbox" class="custom-control-input" id="mailApplication" name="example">
-                                  <label class="custom-control-label" for="mailApplication">Si</label>
+                                  <input type="checkbox" class="custom-control-input" data-onstyle="success" data-on="SI" data-off="NO" data-toggle="toggle" id="mailApplication" name="example">
+                                  <!--<label class="custom-control-label" for="mailApplication">Si</label>-->
                                 </div>
                             </div>
                         </div>
@@ -91,8 +91,8 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="custom-control custom-switch">
-                                  <input type="checkbox" class="custom-control-input" id="mailQuestion" name="example">
-                                  <label class="custom-control-label" for="mailQuestion">Si</label>
+                                  <input type="checkbox" class="custom-control-input" data-onstyle="success" data-on="SI" data-off="NO" data-toggle="toggle" id="mailQuestion" name="example">
+                                  <!--<label class="custom-control-label" for="mailQuestion">Si</label>-->
                                 </div>
                             </div>
                         </div>
@@ -103,8 +103,8 @@
                             </div>
                             <div class="col-md-4">
                                 <div class="custom-control custom-switch">
-                                  <input type="checkbox" class="custom-control-input" id="mailPoll" name="example">
-                                  <label class="custom-control-label" for="mailPoll">Si</label>
+                                  <input type="checkbox" class="custom-control-input" data-onstyle="success" data-on="SI" data-off="NO" data-toggle="toggle" id="mailPoll" name="example">
+                                  <!--<label class="custom-control-label" for="mailPoll">Si</label>-->
                                 </div>
                             </div>
                         </div>
@@ -126,4 +126,13 @@
 @endsection
 @push('css')
 <link rel="stylesheet" href="/assets/css/custom/perfil.css">
+<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+@endpush
+@push('js')
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+<script>
+  $(function() {
+    $('input[data-toggle="toggle"]').bootstrapToggle();
+  })
+</script>
 @endpush

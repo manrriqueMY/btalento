@@ -18,62 +18,109 @@
                 </div>
             </div>
             <div class="col-md-4">
-                
+                <div class="input-group" id="busca">
+                    <select class="custom-select" name="" id="">
+                        <option value="">Tipo Oferta</option>
+                        <option value="">Profecional</option>
+                        <option value="">Práctica</option>
+                        <option value="">Trabajo Para Estudiantes</option>
+                    </select>
+                </div>
             </div>
+        </div>
+        <div class="col-xs-12">
+            <div class="float-right" id="filtros">
+                <a href="#" class="faa-parent animated-hover">
+                    <i class="fa fa-eraser faa-tada"></i> limpiar filtros
+                </a>
+                <a href="#" onclick="$('#advanced-filters').slideToggle();" class="faa-parent animated-hover">
+                    <i class="fa fa-filter faa-tada"></i> más filtros
+                </a>                
+            </div>
+        </div>
+        <div id="advanced-filters" style="display: none;">            
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="">Carrera</label>
+                        <select name="" id="" class="custom-select">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="">Remoto</label>
+                        <select name="" id="" class="custom-select">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="">Region</label>
+                        <select name="" id="" class="custom-select">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="">Comuna</label>
+                        <select name="" id="" class="custom-select">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="">Ofertas Inclusivas</label>
+                        <select name="" id="" class="custom-select">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="">Fecha de Publicación</label>
+                        <select name="" id="" class="custom-select">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="">Ordenar por</label>
+                        <select name="" id="" class="custom-select">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="amount1">Años de Experiencia</label>                        
+                        <div id="slider-range1"></div>
+                        <div class="d-flex justify-content-between">
+                            <span id="am11"></span>
+                            <span id="am12"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="amount2">Sueldo</label>                                             
+                        <div id="slider-range2"></div>
+                        <div class="d-flex justify-content-between">
+                            <span id="am21"></span>
+                            <span id="am22"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>               
         </div>
 
         <div class="row">
-            <!--<div class="col-md-4">
-                <div id="filtro">
-                    <span><label>Filtrar Trabajos</label></span>
-                    <div>
-                        <br>
-                        <label for="">Palabras Clave</label>
-                        <div class="input-group  has-feedback">                        
-                            <select name="" id="" class="custom-select">
-                                <option value="">Todas</option>
-                            </select>
-                        </div>
-                    </div> 
-                    <div>
-                        <br>
-                        <label for="">Tipo de Oferta</label>
-                        <div class="input-group  has-feedback">                        
-                            <select name="" id="" class="custom-select">
-                                <option value="">Todas</option>
-                            </select>
-                        </div>
-                    </div> 
-                    <div>
-                        <br>
-                        <label for="">Carrera</label>
-                        <div class="input-group  has-feedback">                        
-                            <select name="" id="" class="custom-select">
-                                <option value="">Todas</option>
-                            </select>
-                        </div>
-                    </div> 
-                    <div>
-                        <br>
-                        <label for="">Comuna</label>
-                        <div class="input-group  has-feedback">                        
-                            <select name="" id="" class="custom-select">
-                                <option value="">Todas</option>
-                            </select>
-                        </div>
-                    </div> 
-                    <div>
-                        <br>
-                        <label for="">Fecha de Publicación</label>
-                        <div class="input-group  has-feedback">                        
-                            <select name="" id="" class="custom-select">
-                                <option value="">Todas</option>
-                            </select>
-                        </div>
-                    </div>                
-                    
-                </div>
-            </div>-->
+
             <div class="col-md-12">
                 <div id="trabajos">
                     
@@ -141,7 +188,37 @@
 @push('css')
 <link rel="stylesheet" href="/assets/css/custom/trabajos.css">
 @endpush
-
 @push('js')
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
 
+      $( function() {
+        $( "#slider-range1" ).slider({
+          range: true,
+          min: 0,
+          max: 20,
+          values: [ 0, 10 ],
+          slide: function( event, ui ) {
+            $("#am11").html(ui.values[ 0 ] + " años");
+            $("#am12").html("mas de " + ui.values[ 1 ] + " años");
+          }
+        });
+        $("#am11").html($( "#slider-range1" ).slider( "values", 0 ) + " años");
+        $("#am12").html("mas de " + $( "#slider-range1" ).slider( "values", 1 ) + " años");
+
+        $( "#slider-range2" ).slider({
+          range: true,
+          min: 0,
+          max: 5000000,
+          values: [ 1000, 1000000 ],
+          slide: function( event, ui ) {
+            $("#am21").html("$ " + ui.values[ 0 ]);
+            $("#am22").html("$ " + ui.values[ 1 ]);
+          }
+        });
+        $("#am21").html("$ " + $( "#slider-range2" ).slider( "values", 0 ));
+        $("#am22").html("$ " + $( "#slider-range2" ).slider( "values", 1 ));
+      });
+</script>
 @endpush
