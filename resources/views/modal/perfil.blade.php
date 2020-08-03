@@ -5,6 +5,7 @@
                 Foto de Perfil
                 <span class="pull-right"><a href="#" onclick=""><i class="fas fa-edit"></i> Cambiar</a></span>                
             </h4>
+            <div class="line-title"><h4> </h4></div>
         </div>
         <br>
         <div class="photo">

@@ -5,6 +5,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="heading-title"><h4>E-mail descartados</h4></div>
+                <div class="line-title"><h4> </h4></div>
             </div>
             <div class="col-xs-12 col-md-8">
             	<br>

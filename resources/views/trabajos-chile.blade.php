@@ -5,7 +5,7 @@
         <div class="heading-title">        
             <h4>Trabajos exclusivos </h4>            
         </div>
-
+        <div class="line-title"><h4> </h4></div>
         <small><strong>11 trabajos encontrados</strong></small>
         
         <div class="row">
@@ -142,7 +142,7 @@
                                 </div>
 
                                 <div class="subtitle">
-                                    <a href="/trabajar-en-antofagasta-minerals">Antofagasta Minerals</a>
+                                    <a href="/empresa">Antofagasta Minerals</a>
                                     <span>&nbsp;·&nbsp;</span>
                                     <span itemprop="addressRegion">II Región de Antofagasta</span>
                                 </div>

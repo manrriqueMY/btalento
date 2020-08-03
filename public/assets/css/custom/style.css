@@ -368,16 +368,16 @@ footer a:hover{
     margin-top: 30px;
 }
 
-.heading-title::before {
+.line-title::before {
     content: "";
     display: block;
     position: relative;
-    bottom: -47px;
     height: 1px;
     z-index: 9;
     background: #e6e6e6;
+    top: 9px;
 }
-.heading-title::after {
+.line-title::after {
     background: #FF9999;
     content: "";
     display: block;
@@ -385,7 +385,6 @@ footer a:hover{
     z-index: 10;
     width: 80px;
     height: 1px;
-    margin: 20px 0 0;
 }
 .row{
     width: 100%;

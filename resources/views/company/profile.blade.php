@@ -7,6 +7,7 @@
                 <div class="heading-title">
                     <h4>Logo</h4>
                 </div>
+                <div class="line-title"><h4> </h4></div>
                 <form name="Company" method="post" action="#" class="needs-validation" enctype="multipart/form-data" novalidate="true">
                 	<br>
                     <div class="form-group has-feedback ">
@@ -41,6 +42,7 @@
                 <div class="heading-title">
                     <h4>Información general</h4>
                 </div>
+                <div class="line-title"><h4> </h4></div>
                 <form name="CompanyInfo" method="post" action="#" id="company_info_form" class="needs-validation row" novalidate="true">
                     <div class="form-group  has-feedback col-md-12 ">
                     	<input type="text" id="CompanyInfo_name" name="name" required="required" placeholder="Nombre..." col="col-md-12 " class="form-control" value="Spyrohost"> 
@@ -168,6 +170,7 @@
 			                        <div class="heading-title">
 					                    <h4>Descripción de la empresa</h4>
 					                </div>
+                                    <div class="line-title"><h4> </h4></div>
 			                    </a>
 			                </h4>
 			            </div>
@@ -191,6 +194,7 @@
 			                        <div class="heading-title">
 					                    <h4>Misión y visión</h4>
 					                </div>
+                                    <div class="line-title"><h4> </h4></div>
 			                    </a>
 			                </h4>
 			            </div>
@@ -215,6 +219,7 @@
 			                        <div class="heading-title">
 					                    <h4>Beneficios</h4>
 					                </div>
+                                    <div class="line-title"><h4> </h4></div>
 			                    </a>
 			                </h4>
 			            </div>
@@ -238,6 +243,7 @@
 			                        <div class="heading-title">
 					                    <h4>Redes Sociales</h4>
 					                </div>
+                                    <div class="line-title"><h4> </h4></div>
 			                    </a>
 			                </h4>
 			            </div>

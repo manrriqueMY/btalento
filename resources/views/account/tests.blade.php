@@ -6,6 +6,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="heading-title"><h4>Evaluaciones</h4></div>
+            <div class="line-title"><h4> </h4></div>
 	           <br>
             <div class="alert alert-info">Contesta las evaluaciones que tenemos a tu disposición para conocer mejor tu perfil.</div>
           </div>

@@ -1,11 +1,11 @@
 @extends('layouts.app')
 @section('content')
-
-<div id="content-wrapper">
+<div class="company-banner"></div>
+<div id="content-wrapper">    
     <div class="container">
         <div class="header">
             <br>
-            <div id="company_header">
+            <!--<div id="company_header">
                 <div id="desc">
                     <div class="header_content">
                         <div class="photo">
@@ -31,25 +31,48 @@
                         <div class="stat_name">Trabajos</div>
                     </a>
                 </div>
-            </div>
-        </div>
-        <div id="job_header">
-            <div class="col-md-12">
-                <div class="heading">
-                    <div>
-                        <h4>
-                            <span>Jefe (a) Turno Perforación y Tronadura (14065)</span>
-                            <a class="btn btn-sm btn-voice "><i class="fa fa-volume-up"></i></a>                        
-                        </h4>
-                    </div>
-                    <div>
-                        <a class="btn btn-primary" href="#apply" id="postula"><i class="far fa-hand-pointer"></i> Postular</a>
+            </div>-->
+            <div id="company_header">
+                <div class="header_content float-left">                            
+                    <div class="photo hidden-xs">
+                        <div class="img_wrapper">
+                            <img class="img-responsive" height="60" src="//reqlut2.s3.amazonaws.com/uploads/logos/ef0168fd1028554079e3d8903f4f95daad2e2984-5242880.jpg">
+                        </div>
                     </div>
                 </div>
+                    
+                <div class="info float-left">
+                    <div class="name">Antofagasta Minerals</div>
+                    <div class="subtitle mt20">
+                        Chile
+                        | <span>Mineria, Energía y Recursos Naturales</span>
+                        | <a href="/trabajar-en-antofagasta-minerals">Ver más +</a>
+                    </div>
+                </div>
+                <div class="stats hidden-xs text-center float-right">
+                    <a class="stat" href="/empresa">
+                        <div class="number">7</div>
+                        <div class="stat_name">Trabajos</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+        <div id="job_header">
+            <div class="col-md-12">
+                
+                <div class="heading-title">
+                    <h4>
+                        Jefe (a) Turno Perforación y Tronadura (14065) 
+                        <a class="btn btn-primary float-right" href="#apply" id="postula"><i class="far fa-hand-pointer"></i> Postular</a>
+                    </h4>              
+                </div>
+                <div class="line-title"><h4> </h4></div>
+                <br>
                 <b>Publicado el 26 de Jul</b>
             </div>
         </div> 
-        <div class="col-xs-12">
+        <div class="col-md-12">
             <div class="job_section">
                 <div class="text">
                     <br>
@@ -123,6 +146,7 @@
 
                     </h4>
                 </div>
+                <div class="line-title"><h4> </h4></div>
                 <div class="row">
                     <div class="col-sm-4"><b>Tipo de oferta</b></div>
                     <div class="col-sm-8">
@@ -169,6 +193,7 @@
                 <div class="heading-title">
                     <h4>Inclusión laboral</h4>
                 </div>
+                <div class="line-title"><h4> </h4></div>
                 <div class="row">
                     <div class="col-sm-4">
                         <img src="/assets/images/reqlut/logo-inclusion.png" style="max-width: 150px;"
@@ -191,6 +216,7 @@
                 <div class="heading-title">
                     <h4>Requisitos</h4>
                 </div>
+                <div class="line-title"><h4> </h4></div>
                 <div class="row">
                     <div class="col-sm-4"><b>Carrera(s)</b></div>
                     <div class="col-sm-8">
@@ -213,6 +239,7 @@
                 <div class="heading-title">
                     <h4>Postular</h4>
                 </div>
+                <div class="line-title"><h4> </h4></div>
                 <div class="msg_bg">
                     <p>
                         Ingresa o crea tu cuenta en Talento Inclusivo para postular
@@ -222,7 +249,7 @@
                         sesión</a>
                 </div>
             </div>
-        </div>       
+        </div>
     </div>
 </div>
 @endsection

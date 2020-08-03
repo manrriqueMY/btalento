@@ -8,6 +8,7 @@
                 <div class="heading-title">
                     <h4>Quiénes somos</h4>
                 </div>
+                <div class="line-title"><h4> </h4></div>
                 <div> 
                     <p>Atrévete Consultoría, Red Apis y Reqlut se han unido para crear el primer portal inclusivo Chileno&nbsp;que conecta el ecosistema de la diversidad e inclusión,&nbsp;con los desafíos de las organizaciones de hoy.</p>
                 </div>
@@ -16,6 +17,7 @@
                 <div class="heading-title">
                     <h4>Misión</h4>
                 </div>
+                <div class="line-title"><h4> </h4></div>
                 <div>
                     <p>Conectamos ofertas laborales de diversas organizaciones y a las Personas con Discapacidad, a través de un sitio web accesible, intérpretes de lengua de señas en línea y workshop para entregar herramientas socio laborales a las personas.&nbsp;</p>
                 </div>

@@ -9,6 +9,7 @@
                         <div class="heading-title text-center">
                             <h4>Registrate y encuentra los mejores talentos</h4>
                         </div>
+                        <div class="line-title"><h4> </h4></div>
                     </div>
                     <div class="card-body">
                         <form id="loginForm" action="#" class="needs-validation" data-toggle="validator" novalidate>
@@ -128,6 +129,7 @@
                                     <div class="heading-title">
                                         <h3>Usuario</h3>
                                     </div>
+                                    <div class="line-title"><h4> </h4></div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group has-feedback">

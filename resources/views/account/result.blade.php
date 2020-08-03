@@ -9,7 +9,7 @@
                 <div class="heading-title">
                     <h4>DISC</h4>
                 </div>
-
+                <div class="line-title"><h4> </h4></div>
                 <div class="alert alert-info mt20">El DISC es un cuestionario de considerable confiabilidad, validez y
                     consistencia que<br>
                     permite evaluar y predecir el comportamiento de las personas frente a diferentes<br>

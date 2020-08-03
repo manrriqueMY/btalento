@@ -58,6 +58,7 @@
 				    </div>
 				</div>
                 <div class="heading-title"><h4>Procesos En Espera</h4></div>
+                <div class="line-title"><h4> </h4></div>
                 <table class="table table-striped">
                 	<tr>
                 		<th>Inicio</th>

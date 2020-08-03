@@ -18,6 +18,7 @@
 			                    <span class="pull-right"><a data-toggle="modal" data-target="#main_modal" onclick="" href="#"><i class="fas fa-edit"></i> Editar</a></span>
 			                    Información General&nbsp;&nbsp;<i class="fa fa-bookmark"></i>
 			                </h4>
+			                <div class="line-title"><h4> </h4></div>
 			            </div>
 			            <div class="content_view">
 			                <div class="field">
@@ -83,6 +84,7 @@
 			            <div class="heading-title">
 			                <h4>Presentación</h4>
 			            </div>
+			            <div class="line-title"><h4> </h4></div>
 			            <div class="content_view">
 			                <div class="white_bg">
 			                    <h5>Tu presentación debe ser concisa y cautivante</h5>
@@ -101,6 +103,7 @@
 			            <div class="heading-title">
 			                <h4>Inclusión Laboral</h4>
 			            </div>
+			            <div class="line-title"><h4> </h4></div>
 			            <div class="content_view">
 			                <div class="white_bg">
 			                    <div class="item"></div>
@@ -115,6 +118,7 @@
 			            <div class="heading-title">
 			                <h4>Experiencia Laboral</h4>
 			            </div>
+			            <div class="line-title"><h4> </h4></div>
 			            <div class="content_view">
 			                <h5 class="sub">  Años de experiencia  </h5>
 			                <div class="white_bg">
@@ -152,6 +156,7 @@
 			            <div class="heading-title">
 			                <h4>Formación</h4>
 			            </div>
+			            <div class="line-title"><h4> </h4></div>
 			            <div class="content_view">
 			                <h5 class="sub" id="educationLevel">
 			                    Nivel educacional
@@ -211,7 +216,7 @@
 			            <div class="heading-title">
 			                <h4>Conocimientos</h4>
 			            </div>
-
+						<div class="line-title"><h4> </h4></div>
 			            <div class="content_view">
 			                <h5 class="sub" id="langs">
 			                    Idiomas

@@ -22,6 +22,7 @@
 			</div>
             <div class="box">
                 <div class="heading-title"><h4>Procesos Activos</h4></div>
+                <div class="line-title"><h4> </h4></div>
 				<br>
                 <table class="table table-striped">
                     <thead>
@@ -46,6 +47,7 @@
 
             <div class="box">
                 <div class="heading-title"><h4>Procesos Finalizados</h4></div>
+                <div class="line-title"><h4> </h4></div>
                 <br>
                 <table class="table table-striped">
                     <thead>

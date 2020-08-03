@@ -8,6 +8,7 @@
 	            <div class="heading-title">
 	                <h4>Usuarios con acceso a la empresa</h4>
 	            </div>
+	            <div class="line-title"><h4> </h4></div>
 	        </div>
 	        
 	        <div class="col-sm-9">
