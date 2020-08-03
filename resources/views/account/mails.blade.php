@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="container">
-	<div class="row">
+    <div class="row">
       <div class="col-md-8">
         <br>
         <div id="sub_menu">
@@ -21,7 +21,10 @@
             </div>
         </div>
         <div class="box tb20">
-            <h1 class="main">Configura los correos automáticos </h1>
+            <div class="heading-title">
+                <h4>Configura los correos automáticos </h4>
+            </div>
+            <div class="line-title"><h4></h4></div>
             <div class="content_view">
                 <form method="POST" id="mailForm" action="#">
                     <div class="row">
@@ -119,8 +122,8 @@
         </div>
         <br>
     </div>
-		@include('modal.perfil')
-	</div>
+        @include('modal.perfil')
+    </div>
 </div>
 
 @endsection

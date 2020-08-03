@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="container">
-	<div class="row">
+  <div class="row">
     <div class="col-md-8">
       <br>
       <div id="sub_menu">
@@ -94,8 +94,8 @@
       </form>
       <br>
   </div>
-		@include('modal.perfil')
-	</div>
+    @include('modal.perfil')
+  </div>
 </div>
 
 @endsection
