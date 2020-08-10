@@ -2,7 +2,6 @@
 @section('content')
 <div id="content-wrapper">
     <div class="container white_content">
-    	<br>
         <div class="row">
             <div class="col-md-9">
                 <div id="sub_menu" class="text-center">

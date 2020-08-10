@@ -39,3 +39,7 @@ Route::get('/company/job/pending', function () { return view('company/job/pendin
 Route::get('/company/job/nuevo', function () { return view('company/job/nuevo');});
 
 Route::get('/admin/cargo', function () { return view('admin/cargo');});
+Route::get('/admin/information', function () { return view('admin/information');});
+Route::get('/admin/postulante', function () { return view('admin/postulante');});
+Route::get('/admin/dashboard', function () { return view('admin/dashboard');});
+Route::get('/admin/proceso', function () { return view('admin/proceso');});

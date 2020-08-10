@@ -4,7 +4,6 @@
 <div id="content-wrapper">
     <div class="container">
         <div class="header">
-            <br>
             <div id="company_header">
                 <div id="desc">                   
                     <div class="info">
