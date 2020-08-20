@@ -1,91 +1,77 @@
 <header>
-    <div class="container">
-        <a href="/" class="logo">
-            <img alt="Talento Inclusivo" src="/assets/images/logo.png"/>
-        </a>
-        <nav class="d-none d-sm-none d-md-inline-block">
-            <ul>
-                <li><a href="/trabajos-chile">TRABAJOS INCLUSIVOS</a></li>
-                <li><a href="#" title="Llamar a un interprete de lengua de señas"><i class="fas fa-american-sign-language-interpreting"></i></a></li>
-                <li><a href="#"><i class="fas fa-volume-up"></i></a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">MI PERFIL <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="/account/perfil">Perfil</a></li>
-                        <li><a href="/account/tests">Evaluaciones Laborales</a></li>
-                        <li><a href="/account/portafolio">Portafolio</a></li>
-                        <li><a href="/account/applications">Postulaciones</a></li>
-                        <li><a href="/account/invitations">Invitaciones</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">PROCESOS <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="/company/job/nuevo">Nuevo </a></li>
-                        <li><a href="/company/job/active">Activos </a></li>
-                        <li><a href="/company/job/closed">Cerrados </a></li>
-                        <li><a href="/company/job/waiting">En espera</a></li>
-                        <li><a href="/company/job/pending">Rechados</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">MÁS <span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">
-                        <li><a href="/company/profile">Perfil</a></li>
-                        <li><a href="/company/usuarios">Usuarios</a></li>
-                        <li><a href="/company/personalizacion">Mailing</a></li>
-                    </ul>
-                </li>
-                <li><a href="/quienes-somos">QUIENES SOMOS</a></li>
-            </ul>
-        </nav>
-        <div class="inicio-session d-none d-sm-none d-md-inline-block">
-            <div class="btn btn-primary" data-toggle="modal" data-target="#login_modal">Iniciar Sesión</div>
-            <a href="/portal" class="btn btn-default">Acceso Empresas</a>
-        </div>
-        <div class="menu-mobile">
-            <div tabindex="0">
-                <i class="fas fa-bars"></i>
-            </div>
-            <nav class="menu-mobile">
-                <ul>
-                    <li><a href="/trabajos-chile"><i class="fas fa-user"></i> TRABAJOS INCLUSIVOS</a></li>
-                    <li><a href="#" title="Llamar a un interprete de lengua de señas"><i class="fas fa-american-sign-language-interpreting"></i> LLAMAR A UN INTERPRETE</a></li>
-                    <li><a href="#"><i class="fas fa-volume-up"></i> ESCUCHAR OPCIONES</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">MI PERFIL <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="/account/perfil">Perfil</a></li>
-                            <li><a href="/account/tests">Evaluaciones Laborales</a></li>
-                            <li><a href="/account/portafolio">Portafolio</a></li>
-                            <li><a href="/account/applications">Postulaciones</a></li>
-                            <li><a href="/account/invitations">Invitaciones</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">PROCESOS <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="/company/job/active">Activos </a></li>
-                            <li><a href="/company/job/closed">Cerrados </a></li>
-                            <li><a href="/company/job/waiting">En espera</a></li>
-                            <li><a href="/company/job/pending">Rechados</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="true">MÁS <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="/company/profile">Perfil</a></li>
-                            <li><a href="/company/usuarios">Usuarios</a></li>
-                            <li><a href="/company/personalizacion">Mailing</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="/quienes-somos"><i class="fas fa-info-circle"></i> QUIENES SOMOS</a></li>
+  <div class="container-fluid">
+    <div class="row fd-fluid">
+      <div class="col-md-3 col-sm-3 col-xs-3">
+        <div class="logo slide"> <a href="/es/"> <img src="https://www.tgweb.spyrohost.com/img/logo.png" alt="Turismo en Grupo"> </a> </div>
+      </div>
+      <div class="col-md-9 col-sm-9 col-xs-9">
+        <nav class="navbar pull-right">
+          <div class="collapse navbar-collapse hidden-xs hidden-sm">
+            <ul class="nav navbar-nav">
+              <li class="active"><a class="pop-up" href="es/mapa"><i class="fas fa-map-marker-alt"></i> Mapa</a></li>
+              <li class="active"><a href="es/user/login" class="open-login pop-up"><i class="fas fa-user"></i> Iniciar
+                  sesión</a></li>
+              <li class="dropdown"> <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"
+                  role="button" aria-haspopup="true" aria-expanded="false">Ayuda <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="es/contact-us">Contáctanos</a></li>
+                  <li><a href="es/visit-us">Visitanos</a></li>
+                  <li><a href="es/feedback">Feedback</a></li>
                 </ul>
-                <div class="inicio-session">
-                    <div class="btn btn-primary" data-toggle="modal" data-target="#login_modal">Iniciar Sesión</div>
-                    <a href="/portal" class="btn btn-default">Acceso Empresas</a>
-                </div>
-            </nav>
+              </li>
+              <li class="dropdown"> <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"
+                  role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-globe"></i> Idioma (Español)
+                  <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class=""><a href="en/">Inglés</a></li>
+                  <li class="active"><a href="es/">Español</a></li>
+                  <!--<li class="" ><a href="pt/">Portugués</a></li>-->
+                </ul>
+              </li>
+              <li><a href="javascript:void(0)" class="p-right-0"><i class="fas fa-money-bill-alt"></i> Moneda
+                  (Dolar)</a></li>
+            </ul>
+          </div>
+          <div class="nav-mobil visible-xs visible-sm">
+            <div class="menu-opcional">
+              <ul>
+                <li style="position: relative;"><i class="fas fa-search"></i></li>
+                <li>
+                  <a href="javascript:void(0)" id="menu-toggle-wrapper">
+                    <div id="menu-toggle"></div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>        
+        <div class="row hidden-xs hidden-sm">
+          <div class="col-md-12 carrito">
+            <div class="col-xs-12 col-sm-8 col-md-6 content-search carrito">
+              <div class="input-group input-group-lg hidden-xs style-search {{Request::is('/') ? 'd-flex':''}}">
+                @if(!Request::is('/'))
+                  <div class="input-group-btn">
+                    <button type="button" class="btn btn-default b-left"><i class="fas fa-map-marker-alt"></i></button> 
+                  </div>
+                  <div class="search-section">
+                    <input class="form-control input-lg i-left search-destino" name="destino" type="text" placeholder="¿A donde quieres ir?" autocomplete="off">
+                    <ul class="filter-search ft-destino hidden"></ul>
+                  </div>
+                @endif
+                  <div class="input-group-btn">
+                @if(!Request::is('/')) 
+                    <button type="button" class="btn btn-default s-text send-search">Buscar</button>
+                @endif                
+                    <a href="https://www.tgweb.spyrohost.com/es/cart/" class="btn btn-default btn-lg btn-carrito margin-left-15">
+                      <i class="fas fa-shopping-cart"></i> Ver carrito <span id="cart_total_productos">0</span>
+                    </a> 
+                  </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+  <div class="box box-bottom hidden-sm hidden-xs hidden"></div>
 </header>

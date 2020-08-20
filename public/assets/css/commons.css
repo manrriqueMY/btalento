@@ -1,0 +1,36 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.carrito {
+	display: flex;
+	justify-content: end;
+}
+.d-flex{
+	display: flex;
+}
+.flex-direction-column{
+	flex-direction: column;
+}
+.justify-content-between{
+	justify-content: space-between;
+}
+.aling-items-strech{
+	align-items: stretch;
+}
+.justify-content-arround{
+	justify-content: space-around;
+}
+.justify-content-center{
+	justify-content: center;
+}
+.azul{
+	color: blue;
+}
+.rojo{
+	background-color: red;
+}
+@media (max-width: 765px) {
+	.fd-fluid {
+	    padding: 0px;
+	}
+}
