@@ -17,17 +17,64 @@ body{
 .aling-items-strech{
 	align-items: stretch;
 }
+.aling-items-center{
+	align-items: center;
+}
 .justify-content-arround{
 	justify-content: space-around;
 }
 .justify-content-center{
 	justify-content: center;
 }
+.justify-content-end{
+	justify-content: flex-end;
+}
 .azul{
 	color: blue;
 }
+.bg-azul{
+	background-color: blue;
+}
 .rojo{
-	background-color: red;
+	background-color: var(--color-primary);
+}
+.color-rojo{
+	color: var(--color-primary);	
+}
+.pt-20{
+	padding-top:20px;
+}
+.mt-20{
+	margin-top:20px;
+}
+.m0{
+	margin: 0px;
+}
+.mb-0{
+	margin-bottom: 0px;
+}
+.mr-20{
+	margin-right: 20px;
+}
+.prl-30{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.t-justify{
+	text-align: justify;
+}
+.panel:hover {
+   cursor: pointer;
+   box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.5);
+}
+small span:first-child {
+	color: #eda036;
+}
+small span:last-child {
+	color: #7b7b7c;
+}
+hr{
+	border-top: 2px solid #eee;
 }
 @media (max-width: 765px) {
 	.fd-fluid {
