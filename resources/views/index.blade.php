@@ -6,6 +6,3 @@
 @include('partial.visitado')
 @include('partial.inspiracion')
 @endsection
-@push('css')
-<link rel="stylesheet" href="/assets/css/index.css">
-@endpush

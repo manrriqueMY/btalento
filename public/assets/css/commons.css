@@ -38,6 +38,9 @@ body{
 .rojo{
 	background-color: var(--color-primary);
 }
+.bg-gray{
+	background-color: #fcfcfc;
+}
 .color-rojo{
 	color: var(--color-primary);	
 }
@@ -50,6 +53,9 @@ body{
 .m0{
 	margin: 0px;
 }
+.p30{
+	padding:30px;
+}
 .mb-0{
 	margin-bottom: 0px;
 }
@@ -60,8 +66,17 @@ body{
 	padding-left: 30px;
 	padding-right: 30px;
 }
+.ml-20{
+	margin-left: 20px;
+}
 .t-justify{
 	text-align: justify;
+}
+ul.pl-15{
+	padding-left: 15px;
+}
+ul.pl-15 > li{
+	margin-top: 5px;
 }
 .panel:hover {
    cursor: pointer;

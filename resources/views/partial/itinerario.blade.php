@@ -7,7 +7,7 @@ $its = ["1","1","1","1","1"];
 	<div class="col-md-8">
 		<h3 class="titulo"><strong>Itinerario</strong></h3>
 		<br>
-		<div class="panel panel-default">
+		<div class="panel panel-default bg-gray">
 			<div class="panel-body">
 
 				@foreach($its as $index => $value)

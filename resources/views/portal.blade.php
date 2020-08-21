@@ -1,5 +1,8 @@
 @extends('layouts.app')
 @section('content')
+<?php 
+	$items = ["1","1","1","1"];
+?>
 <div class="pt-20 fd-fluid">
 	<div class="container-fluid">
 		<div class="row">
@@ -52,7 +55,14 @@
 		@include('partial.itinerario')
 		@include('partial.paquete')
 		@include('partial.descripcion')
-
+		<h3 class="titulo"><strong>También podría gustarte</strong></h3>
+		<br>
+		<div class="row">
+			@foreach($items as $item)
+				@include('card.panel')
+	        @endforeach
+	    </div>
+		<br>
 	</div>
 </div>
 @endsection

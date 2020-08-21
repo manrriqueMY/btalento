@@ -2,7 +2,7 @@
 	<div class="col-md-8">
 		<h3 class="titulo"><strong>Opciones de paquete</strong></h3>
 		<br>
-		<div class="panel panel-default">
+		<div class="panel panel-default bg-gray">
 			<div class="panel-body">
 				<h4><strong>Opciones de paquete</strong></h4>
 				<br>
@@ -93,5 +93,8 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="col-md-4">
+		@include('partial.opciones')
 	</div>
 </div>	
