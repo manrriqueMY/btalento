@@ -18,11 +18,13 @@
         @stack('css')
     </head>
     <body>
+        <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a>
         @include('layouts.navbar')
         @yield('content')
         @include('layouts.footer')
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="/assets/js/commons.js"></script>
         @stack('js')
     </body>
 </html>
